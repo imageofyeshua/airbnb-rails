@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Devise setup
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # Money setup
+  Money.locale_backend = :i18n
 end
