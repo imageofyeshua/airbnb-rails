@@ -7,6 +7,7 @@ gem 'devise', '~> 4.9', '>= 4.9.3'
 gem 'faker'
 gem "importmap-rails"
 gem "jbuilder"
+gem 'money-rails', '~> 1.12'
 gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "rails", "~> 7.1.3", ">= 7.1.3.4"
